@@ -1,0 +1,84 @@
+.avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: auto;
+  border: 2px solid #e6e6e6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 320px;
+  font-family: "Arial", sans-serif;
+  max-height: 340px;
+  border: 1px solid #f2f2f2;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.headerText {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #555555;
+}
+
+/* Removed the yellow mark */
+.statusBubble {
+  display: none;
+}
+
+.content {
+  text-align: left;
+}
+
+.title {
+  font-size: 15px;
+  color: #3e3e3e;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.featureRequestButton {
+  position: absolute;
+  left: 12%;
+  border: 1px solid #f0f0f0;
+  top: -10%;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #6c757d;
+  border-radius: 6px;
+  background-color: white;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.featureRequestButton:hover {
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.inside {
+  display: flex;
+  position: relative;
+  gap: 12px; /* Ensures adequate spacing between items */
+}
+
+
